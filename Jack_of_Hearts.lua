@@ -3,6 +3,7 @@ local LocalPlayer = Players.LocalPlayer
 local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
 local Head = Character:WaitForChild("Head")
 
+
 local GuiName = "MasGUI"
 
 local function findImageTag()
